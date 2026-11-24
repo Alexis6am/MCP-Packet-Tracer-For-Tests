@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Práctica <número> — <escenario></title>
+<style>
+  body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #222; margin: 12px; }
+  h1 { font-size: 18px; color: #0b4f6c; border-bottom: 2px solid #0b4f6c; padding-bottom: 4px; }
+  h2 { font-size: 15px; color: #0b4f6c; margin-top: 16px; }
+  table { border-collapse: collapse; margin: 8px 0; }
+  th, td { border: 1px solid #555; padding: 4px 8px; text-align: left; vertical-align: top; }
+  th { background-color: #dbe9f1; }
+  code { font-family: "Courier New", Courier, monospace; background-color: #f2f2f2; padding: 0 3px; }
+  pre { font-family: "Courier New", Courier, monospace; background-color: #f2f2f2; border: 1px solid #bbb; padding: 6px; }
+  .nota { background-color: #fff6d6; border: 1px solid #e0c060; padding: 6px; margin: 8px 0; }
+  .aviso { background-color: #fde2e2; border: 1px solid #d08080; padding: 6px; margin: 8px 0; }
+  .pie { font-size: 11px; color: #666; margin-top: 16px; }
+  hr { border: 0; border-top: 1px solid #0b4f6c; margin: 18px 0; }
+</style>
+</head>
+<body>
+<h1>Práctica &lt;número&gt; — &lt;título&gt;</h1>
+
+<h2>Objetivos</h2>
+<ol>
+  <li>&lt;Objetivo 1&gt;</li>
+  <li>&lt;Objetivo 2&gt;</li>
+</ol>
+
+<h2>Escenario</h2>
+<p>&lt;Escenario original en dos o tres frases.&gt;</p>
+<div class="nota">&lt;Lo que ya viene configurado y no se debe tocar.&gt;</div>
+
+<h2>Conexiones y direccionamiento</h2>
+<table>
+  <tr><th>Switch</th><th>Puerto</th><th>Equipo</th><th>Departamento</th><th>IP</th></tr>
+  <tr><td>&lt;SW-A&gt;</td><td>&lt;Fa0/5&gt;</td><td>&lt;PC-01&gt;</td><td>&lt;Depto&gt;</td><td>&lt;IP&gt;</td></tr>
+</table>
+
+<h2>Tabla de VLANs</h2>
+<table>
+  <tr><th>VLAN</th><th>Nombre</th><th>Uso</th><th>Subred</th></tr>
+  <tr><td>&lt;n&gt;</td><td><code>&lt;NOMBRE&gt;</code></td><td>&lt;Datos&gt;</td><td>&lt;subred&gt;</td></tr>
+</table>
+<div class="aviso">Escriba los nombres <b>exactamente</b> como aparecen. La evaluación es automática.</div>
+<hr>
+<h2>Parte 1 — &lt;título&gt;</h2>
+<ol>
+  <li>&lt;Paso: todo lo calificado, pedido explícitamente; sin comandos de la solución.&gt;</li>
+</ol>
+<table>
+  <tr><th>Origen</th><th>Destino</th><th>Resultado esperado</th></tr>
+  <tr><td>&lt;PC&gt;</td><td><code>&lt;IP&gt;</code></td><td>&lt;Exitoso/Fallido&gt;</td></tr>
+</table>
+<div class="nota"><b>Consejo:</b> si el primer ping falla justo después de cambiar un puerto de VLAN, espere unos segundos y repítalo. El puerto tarda en pasar a reenvío (STP) y la primera solicitud ARP puede perderse.</div>
+<hr>
+<h2>Parte &lt;n&gt; — Guardar la configuración</h2>
+<pre>copy running-config startup-config</pre>
+<p>Pulse <b>Check Results</b> para revisar su avance.</p>
+
+<h2>Preguntas de reflexión</h2>
+<ol>
+  <li>&lt;Pregunta&gt;</li>
+</ol>
+<p class="pie">Práctica &lt;número&gt; — &lt;escenario&gt; · Redes II</p>
+</body>
+</html>

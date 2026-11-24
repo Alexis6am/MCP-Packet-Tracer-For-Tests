@@ -1,0 +1,10 @@
+{
+  "practica": "<número y título>",
+  "nota": "Rutas de hojas para pt_activity_mark. Una ruta por requisito pedido explícitamente en el enunciado. No incluir lo que ya es correcto en la red inicial.",
+  "total": 3,
+  "rutas": [
+    ["<SW-A>", "Host Name"],
+    ["<SW-A>", "VLANS", "VLAN <n>", "VLAN Name"],
+    ["<SW-A>", "Ports", "FastEthernet0/<n>", "Access VLAN"]
+  ]
+}
