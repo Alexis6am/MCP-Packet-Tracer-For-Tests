@@ -64,3 +64,15 @@ pt_union.txt
 /.dev/
 /.superpowers/
 /screenshots_*/
+
+# --- Prácticas preprofesionales (Redes II, UPS): nunca versionar actividades ni soluciones ---
+# Las prácticas reales viven fuera del repositorio, en Pruebas-PT. Solo se ignoran
+# carpetas de prácticas y archivos de Packet Tracer; ningún patrón global por nombre
+# de carpeta (Git en Windows ignora mayúsculas y podría tapar código del autor).
+*.pka
+*.pkt
+Pruebas-PT/
+Prueba_*/
+Practica_*/
+Comparativa_*/
+prueba_estudiante/
